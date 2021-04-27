@@ -57,7 +57,8 @@ begin
 
   else
     # if these parameters are not met, ask them to meet them
-    puts 'Please enter a number for the dice sides'
+    puts
+    puts 'Please enter a number greater than 1'
   end
 rescue StandardError
   # If the input cannot be converted into a float, tell the user that they need to input the correct numbers
